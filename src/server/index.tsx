@@ -17,6 +17,7 @@ import { changeTitle } from "common/redux/reducers/title";
 
 declare const module: any;
 
+
 function main() {
     const express = Express();
     const port = 8080;
@@ -30,7 +31,6 @@ function main() {
 
         const appHTML = ReactDOM.renderToString(
             <ReduxProvider store={store}>
-                <Router location={req.path} context={{}}>
                     <JssProvider
                         registry={sheetsRegistry}
                         generateClassName={createGenerateClassName()}
@@ -42,7 +42,6 @@ function main() {
                             <App />
                         </MuiThemeProvider>
                     </JssProvider>
-                </Router>
             </ReduxProvider>
         );
         const appInitialState = JSON.stringify(store.getState()).replace(

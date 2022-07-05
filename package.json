@@ -75,9 +75,11 @@
     "register-service-worker": "^1.6.2",
     "reset-css": "^4.0.1",
     "styled-components": "^4.3.0",
+    "svg-url-loader": "^7.1.1",
     "typeface-montserrat": "0.0.54",
     "url-join": "^4.0.0",
     "use-query-params": "^0.4.1",
+    "webpack-node-externals": "^3.0.0",
     "yup": "^0.28.0"
   },
   "devDependencies": {

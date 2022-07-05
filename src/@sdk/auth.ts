@@ -3,7 +3,7 @@ import { setContext } from "apollo-link-context";
 import { ErrorResponse, onError } from "apollo-link-error";
 import ReactGA from 'react-ga';
 
-export const authEvent = new Event("auth");
+// export const authEvent = new Event("auth");
 
 export function getAuthToken(): string | null {
   try {
@@ -48,7 +48,7 @@ export function removeAuthToken(cartActions) {
   localStorage.removeItem("loggedInUserEmail");
   localStorage.removeItem("unverifiedShippingObject");
   cartActions.setLines([]);
-  dispatchEvent(authEvent);
+  // dispatchEvent(authEvent);
 }
 
 interface ResponseError extends ErrorResponse {
