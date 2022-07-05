@@ -1,0 +1,109 @@
+@import "../../../globalStyles/scss/variables.scss";
+
+.password-reset-form {
+  color: #4D4D4D;
+  margin-top: 20%;
+  .input {
+    margin-bottom: $spacer;
+  }
+  .input__field{
+    box-shadow: none;
+    color:#4D4D4D;
+    border-radius: 5px;
+  }
+
+  .emw-label{
+    font-size: 12px;
+    color: #425160;
+  }
+
+  .input__field:hover + .input__label, .input__field:focus + .input__label{
+    color:#F3A738;
+  }
+  
+  .input__field:not([value=""]) + .input__label{
+    color:#F3A738;
+  }
+
+  .input__field:hover{
+    box-shadow: none;
+  }
+  .input__field:-webkit-autofill{
+    border:0px;
+    box-shadow: none;
+  }
+  .input__field:focus, .input__field:not([value=""]){
+    box-shadow: none;
+  }
+
+  h3{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #425160;
+    margin: 0px 5px;
+  }
+
+  .pass-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #425160;
+    margin: 5px 5px;
+    flex: none;
+    order: 1;
+    align-self: center;
+  }
+
+  &__button {
+    margin-top: $spacer * 2;
+    padding: 0 $spacer * 1.5;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    background-color: white;
+    width: 25rem;
+
+    @media (max-width: $customsmall-screen) {
+      width:100%
+    }
+      
+
+    .button {    
+      transform: unset;
+    padding: 15px;
+    background-color: unset;
+    box-shadow: none;
+    background: linear-gradient(168.31deg, #F6BF52 25%, #F3A738 100%);
+    /* Shadow / Medium */
+
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    }
+
+    .button span {
+      transform: unset;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    }
+
+    .button:hover{
+      background-color: unset;
+    }
+      }
+}
+.password-reset-success-msg{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #425160;
+}

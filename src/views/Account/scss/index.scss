@@ -1,0 +1,69 @@
+@import "../../../globalStyles/scss/variables.scss";
+.account {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  margin-bottom: 2rem;
+
+  @media screen and (max-width: $small-screen) {
+    flex-direction: column;
+  }
+
+  &__menu {
+    width: 360px;
+    margin-right: 2rem;
+  }
+
+  &__content {
+    width: 100%;
+  }
+}
+.account-container{
+  width: 100% !important;
+  @media (min-width:1400px){
+    max-width: 1405px !important;
+  }
+  @media (min-width: 768px){
+    .breadcrumbs{
+      margin: 2.5rem 0;
+    }
+  }
+}
+.AccountInformationSelect {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding-top: 10px;
+  flex-wrap: wrap;
+  .basic-single {
+    max-width: 340px;
+    width: 100%;
+    .basicSingle__control {
+        background: #EEEEEE;
+        border-radius: 5px;
+    }
+    .basicSingle__placeholder {
+      color: #25282B;
+      font-size: 14px;
+      & + div {
+        margin: 0;
+      }
+  }
+  .basicSingle__indicator-separator {
+    display: none;
+}
+  }
+  @media screen and (max-width: $small-screen) {
+    padding-left: 10px;
+    padding-right: 10px;
+    & > p {
+      margin-bottom: 30px;
+    }
+    .basic-single {
+      max-width: unset;
+    }
+  }
+}

@@ -1,44 +1,25 @@
-const webpack = require("webpack");
 const path = require("path");
-const nodeExternals = require("webpack-node-externals");
+const merge = require("webpack-merge");
 
-var config = {
-    mode: "development",
-    plugins: [new webpack.HotModuleReplacementPlugin()],
-    module: {
-        rules: [
-            {
-                test: /\.tsx?$/,
-                use: "ts-loader",
-                exclude: /node_modules/
-            }
-        ]
-    },
-    resolve: {
-        extensions: [".tsx", ".ts", ".js"],
-        modules: ["src", "node_modules"]
-    }
+const baseConfig = require("./config/webpack/config.base");
+const devConfig = require("./config/webpack/config.dev");
+const prodConfig = require("./config/webpack/config.prod");
+const workerConfig = require("./config/webpack/config.worker");
+
+const sourceDir = path.join(__dirname, "./src");
+const distDir = path.join(__dirname, "./dist");
+
+module.exports = (env, argv) => {
+  const devMode = argv.mode !== "production";
+  const sw = !!argv["service-worker"];
+  const paths = { sourceDir, distDir };
+
+  const base = baseConfig(paths);
+  const worker = workerConfig(paths);
+  const dev = sw
+    ? merge(base, worker, devConfig(paths))
+    : merge(base, devConfig(paths));
+  const prod = merge(base, worker, prodConfig(paths));
+
+  return devMode ? dev : prod;
 };
-
-var client = Object.assign({}, config, {
-    name: "client",
-    target: "web",
-    entry: path.resolve(__dirname, "src/client/index.tsx"),
-    output: {
-        filename: "bundle.js",
-        path: path.resolve(__dirname, "build")
-    }
-});
-
-var server = Object.assign({}, config, {
-    name: "server",
-    target: "node",
-    externals: [nodeExternals()],
-    entry: path.resolve(__dirname, "src/server/index.tsx"),
-    output: {
-        filename: "server.js",
-        path: path.resolve(__dirname, "build")
-    }
-});
-
-module.exports = [client, server];

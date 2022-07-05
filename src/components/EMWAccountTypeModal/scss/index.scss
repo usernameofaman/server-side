@@ -1,0 +1,297 @@
+@import "../../../globalStyles/scss/variables.scss";
+
+.emw-checkout-box {
+  color:red;
+
+
+  .emw-account-form{
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 25px;
+
+    .account__type__button{
+      background: #FFFFFF;
+      border: 1px solid #F3F3F3;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;      
+    }
+
+    .upload__checkbox{
+      margin-left: 30px;
+      text-align: left;
+    }
+
+    .account__type__button.active{
+      border: 1px solid #F3A738;
+    }
+
+    table tbody th,table tbody td{
+      color: #425160;
+    }
+
+    .input{
+      position:relative;
+      margin-bottom: 0px;
+    }
+
+    .MuiTableCell-root{
+      padding: 12px 16px;     
+      .removeItem{
+        cursor: pointer;
+      }
+    }
+    .product-title{
+      color: #425160;
+      font-weight: 600;
+      margin: 50px 0px 30px;
+    }
+    .gaq-doc-item {
+      display: flex;
+      align-items: center;
+    }
+
+    button.button{
+      transform: none;    
+      box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      width: 25%;
+      margin: 2rem 0 0 0;
+      background: linear-gradient(135deg, #637895 25%, #435160 100%);
+     }
+     button.button span{
+      transform: none;
+     }
+
+    .items{
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0;
+     }
+     
+
+   
+   @media (min-width: $customsmall-screen) {
+    .items.shipping-desktop{
+      max-width: 70%;
+      .inner-items{
+        margin-right: -30px;
+        margin-left: -30px;
+      }
+      .shipping-title{
+        padding: 0 30px;
+        text-align: center;
+      }
+      .shipping-list-item{
+        width: 50%;
+        display: inline-block;
+        padding: 0 30px;
+      }
+      .checkout-form__button{
+        text-align: center;
+        button{
+          width: 317px;
+        }
+      }
+     }
+   }
+  
+   .items{
+    .infospan span {
+     width: 100%;
+     display: block;
+     color: #425160;
+     text-align: center;
+     .account__type__container{
+       margin:0px
+     }
+    }
+    .emw-friet-shipp span {
+     width: 100%;
+     display: block;
+     margin: 0 0 10px;
+     color: #425160;
+     text-align: left;
+    }
+  }
+   .items .inner-items{
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     max-width: 30%;
+     margin: 40px auto 0;
+     margin-top: 0px;
+     text-align: center;
+   }
+
+   .items .input__field{
+     border-color: #CCCED0;
+   }
+
+   @media (max-width: $customsmall-screen) {
+
+    .items{
+      width: 100%;
+      padding: 0;
+     }
+  
+     .items .inner-items{
+       max-width: 100%;
+       margin: 0;
+     }
+
+     .MuiDialogActions-root button:first-child{
+      display: none;
+    }
+
+     .MuiDialogActions-root{
+      justify-content: center;
+    }
+
+    .checkout-form__button button{
+      max-width: 100%;
+    }
+  }
+
+  .MuiDialogActions-spacing .emw-prev{
+    margin: 0 30px 0 0;
+  }
+
+  .MuiDialogActions-spacing .emw-next{
+    margin: 0 0 0 30px;
+  }
+
+  .MuiDialogActions-spacing .checkout-step{
+    color: grey;
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #F3F3F3;
+    box-shadow: 0px 32px 40px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 25px;
+  }
+  .MuiDialogActions-spacing .emw-stepper .checkout-step:nth-child(1), .MuiDialogActions-spacing .emw-stepper{
+  margin-left: 0!important;
+  }
+
+  .MuiDialogActions-spacing .checkout-step.active{
+   // background-image: url('../../../images/step-dark.svg');
+   background: linear-gradient(135deg, #637895 25%, #435160 100%);
+   color:white;
+  }
+   .MuiDialogActions-spacing button {
+    background-color:snow;
+    border:none;
+    box-shadow:none;
+    transition:none;
+    transform: none;
+    font-family: Roboto;
+   }
+
+   .MuiDialogActions-spacing button:last-child {
+    background: linear-gradient(168.31deg, #F6BF52 25%, #F3A738 100%);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+   }
+
+   .MuiDialogActions-spacing button span {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #425160;
+    transform: none;
+   }
+
+   .MuiDialogActions-spacing button:last-child span {
+    color: snow;
+   }
+
+   .gaq-desktop-table{
+    display: block;
+    @media (max-width: $customsmall-screen) {
+     display: none;
+   }
+  }
+   .gaq-mobile-table{
+     display: none;
+     @media (max-width: $customsmall-screen) {
+      display: block;
+    }
+   }
+  }
+}
+
+@media (max-width: $customsmall-screen) {
+  .emw-checkout-box{
+    .emw-account-form{
+    padding: 0px;
+    margin: 15px 0px;
+    .product-title{
+      margin: 50px 0px 30px;
+    }
+    .gaq-comment-doc{
+      flex-direction: column-reverse;
+    }
+    .emw-width-60, .emw-width-40 {
+      flex:0 0 100%;
+      max-width: 100%;
+    }
+    .emw-width-60{
+      .MuiTextField-root{
+        width: 100%;
+      }
+    }
+    .items .inner-items .add-list{ 
+      width: 100%;
+    }
+    .checkout-form__button button{
+      width: 100%;
+    }
+    .items .inner-items .add-new{
+      width: 100%;
+      max-width: 100%;
+    }
+    .items .inner-items .shipping-list-item{
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-top: 0px;
+    }
+    .emw-gaq-input {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    }
+  }
+
+}
+
+.request-button{
+  left: 0;
+width: 100%;
+display: block;
+clear: both;
+background: white;
+text-align: center;
+border-top: 1px solid rgba(0, 0, 0, 0.25);
+bottom: 0;
+right: 0;
+z-index: 999;
+padding: 27px;
+button.button{
+  margin:0px;      
+  background: linear-gradient(135deg, #F6BF52 25%, #F3A738 100%);
+  width: 225px;
+  padding: 15px 30px;
+  transform: none;
+  border-radius: 5px;
+  span{
+    transform: none;
+  }
+}
+button.button.inactive{
+  background: #F3F3F3;
+}
+}

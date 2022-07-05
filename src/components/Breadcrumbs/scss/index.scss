@@ -1,0 +1,53 @@
+@import "../../../globalStyles/scss/variables.scss";
+
+.breadcrumbs {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: $spacer 0;
+  width: 100%;
+  background: #F3F3F3;
+  border-radius: 5px;
+  padding:5px;
+  @media(max-width: $medium-screen){
+    background-color: transparent;
+  }
+
+  li {
+    font-size: 14px;
+    &:not(:last-of-type) {
+      &:after {
+        content: url("../../../images/breadcrumbs-arrow.svg");
+        display: inline-block;
+        margin: 0 $spacer / 3;
+      }
+    }
+
+    a {
+      color: $orange;
+      text-decoration: none;
+      vertical-align: middle;
+      transition: 0.3s;
+      font-size: 14px;
+      font-weight: 300;
+
+      &:hover,
+      &:focus {
+        color:#F3A738;
+      }
+      @media(max-width: $medium-screen){
+        font-size: 10px;
+      }
+    }
+  }
+
+  &__active {
+    a {
+      color: $base-font-color;
+      // font-weight: $bold-font-weight;
+
+      &:hover {
+        color: $base-font-color;
+      }
+    }
+  }
+}

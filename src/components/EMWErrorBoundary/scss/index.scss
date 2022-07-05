@@ -1,0 +1,48 @@
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainErrorHeading{
+    color: #425160;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+.secondaryLine{
+    font-size: 18px;
+    line-height: 25px;
+    color: #425160;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 991px){
+    .overlay__header__logo-icon{
+        svg{
+            max-width: 100% ;
+        }
+    }
+}
+
+.overlay__header__logo-icon{
+    svg{
+        width: 300px ;
+    }
+}
+
+.secondary-section{
+    text-align: center;
+}
+.arrowSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    p{
+        margin-left: 15px;
+    }
+}

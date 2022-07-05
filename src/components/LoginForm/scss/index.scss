@@ -1,0 +1,106 @@
+@import "../../../globalStyles/scss/variables.scss";
+
+.login-form {
+  margin-top:5%;
+  .input {
+    margin-bottom: $spacer;
+  }
+  .input__field{
+    box-shadow: none;
+    color:#4D4D4D;
+    border-radius: 5px;
+  }
+
+  .input__field:hover + .input__label, .input__field:focus + .input__label{
+    color:#F3A738;
+  }
+  .input__field:not([value=""]) + .input__label{
+    color:#F3A738;
+  }
+
+  .emw-label{
+    font-size: 12px;
+    color: #425160;
+  }
+
+  .input__field:hover{
+    box-shadow: none;
+  }
+  .input__field:-webkit-autofill{
+    border:0px;
+    box-shadow: none;
+  }
+  .input__field:focus, .input__field:not([value=""]){
+    box-shadow: none;
+  }
+
+  .form-error {
+    display:none;
+  }
+
+  .u-link{
+    text-decoration: none;
+    color: #425160;
+    font-size: 12px;
+  }
+
+  .emw-form-error {
+    color: #c22d74;
+    padding-bottom: 10px;
+    display: block;
+  }
+
+  .emw-form-error a{
+    text-decoration: underline;
+    cursor: pointer;
+    }
+  
+  .login__content__password-reminder{
+    margin-top: 0;
+  }
+
+  &__button {
+    margin-top: $spacer * 2;
+    padding: 0 $spacer * 1.5;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    right: 0px;
+    background-color: white;
+    // width: auto;
+
+    @media (max-width: $customsmall-screen) {
+      width:100%
+    }
+      
+
+    .button {    
+      transform: unset;
+    padding: 10px 15px;
+    background-color: unset;
+    box-shadow: none;
+    background: linear-gradient(168.31deg, #F6BF52 25%, #F3A738 100%);
+    /* Shadow / Medium */
+
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    // width: 100%;
+    margin-bottom: 10px;
+    }
+
+    .button span {
+      transform: unset;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    }
+
+    .button:hover{
+      background-color: unset;
+    }
+      }
+}

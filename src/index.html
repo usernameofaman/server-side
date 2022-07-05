@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="content-language" content="en-us">
+  <script type='text/javascript'
+    data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'ee5e3853-96dd-4f1a-86d6-b6da7eaf9f51', f: true }); done = true; } }; })();</script>
+  <script>
+    if (window.Cypress) {
+      window.__REACT_DEVTOOLS_GLOBAL_HOOK__ =
+        window.parent.__REACT_DEVTOOLS_GLOBAL_HOOK__;
+    }
+  </script>
+  <link
+    rel="stylesheet"
+    type="text/css"
+    charset="UTF-8"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+  />
+</head>
+
+<body>
+  <div id="root"></div>
+  <div id="modal-root"></div>
+  <script src=${process.env.REACT_APP_ADYEN_JS_URL}
+  integrity="sha384-CJ8FSR4EmldZPoNUHfpHrZ7CSOsP2lxp8xzSNIE92icrx46CmCoSxucO4IRE8h7V"
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tui-image-editor@3.2.2/dist/tui-image-editor.css">
+  <link rel="stylesheet" href="https://uicdn.toast.com/tui-color-picker/latest/tui-color-picker.css">
+  <script src="https://cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+  
+</body>
+
+</html>

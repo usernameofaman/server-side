@@ -1,0 +1,106 @@
+@import "../../../globalStyles/scss/variables.scss";
+
+.thankyou-heading{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    color: #425160;
+    margin-bottom: 5px;
+}
+
+.order-placed-heading{
+    color: #425160;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.mail-heading{
+    // font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #425160;
+    max-width: 356px;
+    margin-bottom: 25px;
+}
+
+.confirmDetails-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    @media only screen and (max-width: 991px){
+        display: block;
+    }
+    
+}
+
+
+.supplementConfirmSection{
+    margin-top: 70px !important;
+    @media only screen and (max-width: 1280px){
+        margin-top: 40px !important;
+    }
+    @media only screen and (max-width: 991px){
+        margin-top: 0 !important;
+    }
+}
+
+.thankyou-section{
+    max-width: 405px;
+    @media only screen and (max-width: 991px){
+        margin-left: 0 !important;
+    }
+}
+@media only screen and (max-width: 991px){
+    .empty-sm-0{
+        margin-top: 0 !important;
+    }
+    .overlay__header__logo-icon{
+        svg{
+            max-width: 100% ;
+        }
+    }
+}
+
+.overlay__header__logo-icon{
+    svg{
+        width: 400px ;
+    }
+}
+.returnToStoreButton{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #425160;
+    margin-top: 75px;
+    cursor: pointer;
+}
+
+.offline-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #DF3826;
+    text-align: left;
+}
+
+.offline-first-margin-top{
+    margin-top: 60px;
+}
+
+.offline-text-margin-bottom{
+    margin-bottom: 20px;
+}
+
+.offline-error-status-alignment{
+    text-align: left;
+}
+.offline-error-status-gap{
+    margin-top: 20px;
+}

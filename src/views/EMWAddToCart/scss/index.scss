@@ -1,0 +1,89 @@
+@import "../../../globalStyles/scss/variables.scss";
+
+.add-to-cart-options-section{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.add-to-cart-options-heading{
+  font-weight: 700 !important;
+}
+.options-mb-10{
+  margin-bottom: 10px;
+}
+.option-field-required
+{
+  margin-left: 2px;
+  color: #e07a39;
+}
+.option-modal-text{
+  color:#98949a !important;
+  cursor: pointer;
+}
+.option-modal-values{
+  color: #8899af;
+  text-align: end;
+}
+.replacement-link{
+  border-radius: 5px;
+  padding: 13px;
+  background: linear-gradient(160.56deg, #F6BF52 25%, #F3A738 100%);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+.replacement-link-bottom-gap{
+  margin: 10px;
+}
+.option-grid-padding{
+  padding: 0 12px;
+}
+
+.option-checkbox-color .MuiSvgIcon-root path{
+  fill: #a0afc1;
+}
+.option-group-name-heading{
+  font-weight: 600 !important
+}
+.replacement-bottom{
+  margin-bottom: 15px !important;
+}
+.product-page-dynamic-block{
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+  margin: 0px 0px 0px;
+  padding: 13px;
+  color: #fff;
+  text-align: center;
+}
+.better-price-accordian{
+  background-color: transparent !important;
+  box-shadow: none !important;
+  .MuiExpansionPanelSummary-content{
+    flex-grow: 0;
+  }
+  &:before{
+    display: none;
+  }
+  .MuiExpansionPanelSummary-root{
+    padding: 0 !important;
+  }
+  .MuiExpansionPanelDetails-root{
+    padding: 0 !important;
+  }
+  .MuiExpansionPanelSummary-content{
+    margin-top: 12px;
+  }
+}
+.add-top-gap{
+  margin-top: 10px;
+}
+.reduce-margin-bottom{
+  & .Mui-expanded{
+    margin: 20px 0 0 !important;
+  }
+}

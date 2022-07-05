@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.electricmotorwholesale.com/sitemap.txt
+Disallow: *?attribute=*
+Disallow: *?vendor*
+Disallow: *?productType=*
+Disallow: *?sortBy=*
+Disallow: /site-search
+Disallow: *?query=*

@@ -1,0 +1,50 @@
+.catalog-dropdown-container{
+    background: #F9FAFA;
+    // box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    padding: 20px;
+    height: 100%;
+}
+.catalog-dropdown-label{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #393D41;
+    display: flex;
+    justify-content: center;
+}
+.catalog-go-btn{
+    background: #637895 !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+    & .MuiButton-label{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        color: #F3F3F3;
+    }
+}
+.catalog-dropdown{
+    width: 100%;
+}
+
+.sub-heading-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #393D41;
+}
+.search-term-class{
+    margin-top: 0;
+    margin-bottom: 0;
+}

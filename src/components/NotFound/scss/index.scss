@@ -1,0 +1,211 @@
+@import "../../../globalStyles/scss/variables.scss";
+
+.not-found-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: $spacer * 2 $spacer;
+  margin-top: 40px;
+
+  &__header {
+    font-size: 15rem;
+    font-family: "Montserrat";
+    font-weight: 900;
+    line-height: 100%;
+    color: $blue;
+    padding-bottom: 20px;
+
+    @media (max-width: $small-screen) {
+      font-size: 9rem;
+    }
+  }
+
+  &__ruler {
+    background: $blue;
+    min-width: $spacer * 10;
+    height: 2px;
+    margin-top: $spacer;
+    margin-bottom: $spacer * 3;
+  }
+
+  &__message {
+    @media (max-width: $small-screen) {
+      p {
+        display: inline;
+      }
+    }
+  }
+
+  &__button {
+    margin: $spacer * 1 0;
+    text-align: left;
+    width: 100%;
+    max-width: 787px;
+  }
+  .text-left {
+    text-align: left;
+  }
+  button.button.secondary svg {
+    border-right: 2px solid #fff;
+    margin-right: 15px;
+  }
+  .not-found-page__message {
+    text-align: left;
+    max-width: 787px;
+    margin: 30px auto 0;
+    width: 100%;
+    .font-bold {
+      font-weight: 800;
+      color: #425160;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+  }
+  button {
+    transform: none;
+    background: #007CBA !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 20px 0 0;
+    transition: none !important;
+    span {
+      transform: none;
+      color: #fff !important;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  button:hover {
+    background: #50ABFF !important;
+    svg {
+      path {
+        fill: #50ABFF;
+        & + path {
+          fill: white !important;
+        }
+      }
+    }
+  }
+  button:focus {
+    background: #257EE7 !important;
+    svg {
+      path {
+        fill: #257EE7;
+        & + path {
+          fill: white !important;
+        }
+      }
+    }
+  }
+}
+.showMobile {
+  display: none;
+}
+.mobileRevers {
+  max-width: 787px;
+  margin: 0 auto 20px;
+}
+.nextLink p {
+  display: inline-block !important;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .showMobile {
+    display: block;
+  }
+  .text-left {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 0 15px;
+  }
+  .hideMobile {
+    display: none;
+  }
+  .mobileRevers {
+    flex-direction: column-reverse;
+  }
+  .not-found-page .not-found-page__message p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+  }
+  .not-found-page__button {
+    text-align: center !important;
+    button {
+      max-width: 200px;
+    }
+  }
+}
+.search-container{
+  display: flex;
+  input{
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 500px;
+    height: 42px;
+  }
+  .Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: rgba(0, 0, 0, 0.23);
+    border-width: 1px;
+  }
+  .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+    border-color: rgba(0, 0, 0, 0.23);
+  }
+  button{
+    width: 112px;
+    height: 44px;
+    background: linear-gradient(135deg, #F6BF52 25%, #F3A738 100%);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    color: #F3F3F3;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  form{
+    position: relative;
+  }
+}
+.emw-menu-search{
+  // width: 20px;
+  // position: absolute;
+  // right: 10px;
+  // top: 10px;
+  // cursor: pointer;
+  // new
+  width: 42px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  bottom: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #F6BF52 25%, #F3A738 100%);
+  // box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  svg *{
+    fill: #FFFFFF;
+  }
+}
+.emw-menu-search:hover svg *{
+  // fill: #F6BF52;
+  fill: #425160;
+}
+.not-found-search {
+  max-width: 787px;
+  width: 100%;
+  margin: 0 auto;
+}

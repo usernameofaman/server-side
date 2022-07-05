@@ -1,0 +1,65 @@
+@import "../../../globalStyles/scss/variables.scss";
+
+.responsiveFullWidthDialog  {
+  display: none !important;
+  /*LIST HERE*/
+  @media(max-width: 767px) {
+    display: initial !important; 
+
+      .MuiAppBar-colorPrimary {
+        background: #fff;
+      }
+      .MuiTypography-h6 {
+        color: #6c6c6c;
+        font-weight: 400;
+      }
+      
+      .MuiButton-label {
+        width: 79px !important;
+        border-radius: 5px;
+        color: #fff;
+        background: #a0afc1;
+        padding: 4px;
+      }
+      .MuiGrid-grid-sm-8 {
+        padding-bottom: 0 !important;
+      }
+  }
+   @media(max-width: 414px) {
+   
+      .MuiGrid-spacing-xs-3 > .MuiGrid-item {
+         padding-right: 10px !important;
+         padding-left: 10px;
+      }
+    
+    }
+    @media(max-width: 375px) {
+      .MuiIconButton-edgeStart {
+        margin-left: 0;
+      }
+    
+    }
+    @media(max-width: 360px) {
+      .MuiGrid-spacing-xs-3 > .MuiGrid-item span {
+          font-size: 13px;
+      }
+    }
+   
+  .MuiGrid-spacing-xs-3{
+    @media(max-width:767px) {
+        width: 100%;
+        padding: 25px 0;
+        padding-left: 10px;
+    }  
+  }
+  @media only screen and (max-width:767px){
+    .option-modal-values span {
+      justify-content: flex-end;
+    }
+  }
+  .MuiGrid-root.MuiGrid-item span {
+      display: flex;
+      padding-top: 0;
+
+  }
+}

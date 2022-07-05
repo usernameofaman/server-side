@@ -1,0 +1,149 @@
+@import "../../../globalStyles/scss/variables.scss";
+
+.order-tracking-heading{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #425160;
+}
+.order-id-gap{
+    margin: 40px 0 40px 0;
+}
+.order-item-details{
+    font-size: 14px;
+    line-height: 16px;
+    color: #425160;
+    margin-bottom: 5px;
+}
+.order-item-name{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #425160;
+    margin-bottom: 5px;
+}
+.order-item-box{
+    background: #FFFFFF;
+    border: 0.5px solid #F3F3F3;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 15px 10px;
+    margin-top: 15px;
+}
+
+.order-item-detailed{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 12.5px;
+    margin-bottom: unset !important;
+}
+
+.order-item-detail-section{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 22px;
+}
+
+.order-login-head{
+    color: #F6BF52;
+    cursor: pointer;
+}
+.order-login-section{
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #425160;
+    margin-top: 40px;
+}
+
+.shipping-head-gap{
+    margin-bottom: 15px;
+}
+
+.order-shipping-details{
+    margin-bottom: 40px;
+    color: #637895;
+    font-size: 18px;
+    line-height: 24px;
+}
+.right-arrow {
+    line-height: 1;
+}
+
+.order-track-section .input__content input{
+  border: 0.5px solid #CCCED0 !important;
+  border-radius: 4px;
+}
+
+.findOrderBtn button{
+    background: linear-gradient(171.74deg, #637895 25%, #435160 100%);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px !important;
+    color: #FFFFFF !important;
+    @media (max-width: 576px){
+        width: 100%;
+    }
+}
+.findOrderBtn button[disabled]{
+    pointer-events: none;
+    cursor: not-allowed;
+    background: #F3F3F3 !important;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1) !important;
+}
+.btn-center
+{
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+.track-heading-gap{
+    margin: 40px 0 30px 0;
+}
+// .order-track-section .input__field:not([value=""]){
+//     // border: 0.5px solid #CCCED0 !important;
+//     box-shadow: 0 0 0 1px #E5E5E5 !important;
+// }
+
+.wrong-order-id{
+    text-align: center;
+    padding-top: 40px;
+    color: #425160;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+.tracking-loader-padding{
+    padding: 3px 4px;
+}
+
+//  tracking errors 
+
+.tracking-error-title{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #425160;
+}
+
+.tracking-error-title2{
+    font-size: 18px;
+    line-height: 24px;
+    color: #425160;
+}
+
+.tracking-merchant-service-title{
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #425160;
+}
+
+.tracking-merchant-details{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #425160;
+}
+
