@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { useLocalStorage } from "@hooks";
+import { useLocalStorage } from "@next/hooks/index.ts";
 import { useAuth, useCheckoutDetails, useUserCheckout, useSaleorClient } from "@sdk/react";
 
 import { CheckoutContext, CheckoutContextInterface } from "./context";

@@ -6,7 +6,7 @@ import {
   I18nLoader,
   ServiceWorkerContext,
   ServiceWorkerProvider,
-} from "@components/containers";
+} from "@next/components/containers";
 import { SaleorProvider, useAuth, useUserDetails } from "@sdk/react";
 import { defaultTheme, GlobalStyle } from "@styles";
 

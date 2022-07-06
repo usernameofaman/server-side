@@ -2,7 +2,7 @@ import React from "react";
 
 import { IconButton } from "@components/atoms";
 import { FilterAttribute } from "@components/molecules";
-import { useHandlerWhenClickedOutside } from "@hooks";
+import { useHandlerWhenClickedOutside } from "@next/hooks/index.ts";
 
 import { Overlay } from "../";
 import * as S from "./styles";

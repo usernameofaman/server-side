@@ -9,13 +9,14 @@ const fallbackLanguage = "en";
 const getLangCode = (code: string) =>
   code.includes("-") ? code.split("-")[0] : code;
 
-const defaultLanguage = getLangCode(
-  (
-    (navigator.languages && navigator.languages[0]) ||
-    navigator.language ||
-    fallbackLanguage
-  ).toLowerCase()
-);
+const defaultLanguage = fallbackLanguage;
+// const defaultLanguage = getLangCode(
+//   (
+//     (navigator.languages && navigator.languages[0]) ||
+//     navigator.language ||
+//     fallbackLanguage
+//   ).toLowerCase()
+// );
 
 export const I18nLoader: React.FC<IProps> = ({ children, languages }: IProps) => {
   const [ language, setLanguage ] = React.useState<string>(() => {

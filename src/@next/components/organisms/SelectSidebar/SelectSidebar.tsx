@@ -3,7 +3,7 @@ import React from "react";
 
 import { ButtonLink } from "@components/atoms";
 import { CardHeader, OverlayItem } from "@components/molecules";
-import { useHandlerWhenClickedOutside } from "@hooks";
+import { useHandlerWhenClickedOutside } from "@next/hooks/index.ts";
 
 import { Overlay } from "../";
 import * as S from "./styles";

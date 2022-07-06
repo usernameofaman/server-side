@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import {
   useProductVariantsAttributes,
   useProductVariantsAttributesValuesSelection,
-} from "@hooks";
+} from "@next/hooks/index.ts";
 import { ProductVariantAttributeSelect } from "./ProductVariantAttributeSelect";
 import * as S from "./styles";
 import { IProps } from "./types";

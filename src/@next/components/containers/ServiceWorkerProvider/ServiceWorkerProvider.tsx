@@ -1,6 +1,6 @@
 import React from "react";
 
-import { useServiceWorker } from "@hooks";
+import { useServiceWorker } from "@next/hooks/index.ts";
 
 import { ServiceWorkerContext } from ".";
 import { IProps } from './types';

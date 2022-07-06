@@ -14,13 +14,25 @@ import {
 import App from "common/App";
 import theme from "common/theme";
 import { changeTitle } from "common/redux/reducers/title";
+const domino = require('domino');
+const win = domino.createWindow('');
+const MockBrowser = require('mock-browser').mocks.MockBrowser;
 
 declare const module: any;
+
+
+const mock = new MockBrowser();
+
+global['navigator'] = mock.getNavigator();
+global['window'] = win;
+global['document'] = win.document;
+global['XMLHttpRequest'] = require('xmlhttprequest').XMLHttpRequest;
 
 
 function main() {
     const express = Express();
     const port = 8080;
+    
 
     express.use(Express.static("build"));
 

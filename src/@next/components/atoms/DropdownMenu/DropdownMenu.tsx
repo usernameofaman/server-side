@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { useHandlerWhenClickedOutside } from "@hooks";
+import { useHandlerWhenClickedOutside } from "@next/hooks/index.ts";
 
 import * as S from "./styles";
 import { IProps } from "./types";

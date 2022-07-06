@@ -1,7 +1,7 @@
 import React from "react";
 
 import { NavLink, ShadowBox } from "@components/atoms";
-import { useHandlerWhenClickedOutside } from "@hooks";
+import { useHandlerWhenClickedOutside } from "@next/hooks/index.ts";
 
 import * as S from "./styles";
 

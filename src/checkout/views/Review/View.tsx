@@ -6,7 +6,7 @@ import { AlertManager, useAlert } from "react-alert";
 import { generatePath, RouteComponentProps } from "react-router";
 import { Link } from "react-router-dom";
 
-import { Money } from "@components/containers";
+import { Money } from "@next/components/containers";
 
 import { Button, CartTable } from "../../../components";
 

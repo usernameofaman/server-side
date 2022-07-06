@@ -2,7 +2,7 @@ import React from "react";
 
 import { Icon, Input } from "@components/atoms";
 import { InputSelect } from "@components/molecules";
-import { useSelectableProductVariantsAttributeValues } from "@hooks";
+import { useSelectableProductVariantsAttributeValues } from "@next/hooks/index.ts";
 import { ProductDetails_product_variants } from "@sdk/queries/types/ProductDetails";
 import {
   IProductVariantsAttribute,

@@ -1,7 +1,7 @@
 import React from "react";
 
 import { PlaceholderImage } from "@components/atoms";
-import { useNetworkStatus } from "@hooks";
+import { useNetworkStatus } from "@next/hooks/index.ts";
 import NoPhoto from "images/no-photo.svg";
 
 import { IProps } from "./types";

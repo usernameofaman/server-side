@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { Money } from "@components/containers";
+import { Money } from "@next/components/containers";
 
 import { CartInterface } from "../../../components/CartProvider/context";
 import { TypedProductVariantsQuery } from "../../../views/Product/queries";

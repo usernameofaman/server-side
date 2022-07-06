@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Icon } from "@components/atoms";
-import { useHandlerWhenClickedOutside } from "@hooks";
+import { useHandlerWhenClickedOutside } from "@next/hooks/index.ts";
 
 import { Link } from "react-router-dom";
 import * as S from "./styles";
