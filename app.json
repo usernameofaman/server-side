@@ -1,0 +1,22 @@
+{
+  "name": "saleor-storefront",
+  "description": "A GraphQL-powered, PWA, single-page storefront application for Saleor",
+  "repository": "https://github.com/mirumee/saleor-storefront",
+  "website": "http://getsaleor.com/",
+  "logo": "https://imageserv11.team-logic.com/store-logic/products/59/6/0/3/4/0/logo_centered.jpg",
+  "keywords": ["saleor", "e-commerce", "storefront"],
+  "env": {
+    "API_URI": {
+      "description": "URI of a running instance of Saleor GraphQL API",
+      "value": "https://demo.getsaleor.com/graphql/"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-static.git"
+    }
+  ]
+}

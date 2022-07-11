@@ -1,5 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const WebappWebpackPlugin = require("webapp-webpack-plugin");
+const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
@@ -98,7 +98,7 @@ module.exports = ({ sourceDir, distDir }) => ({
       async: false,
     }),
     // PWA plugins
-    new WebappWebpackPlugin({
+    new FaviconsWebpackPlugin({
       logo: `${sourceDir}/images/favicon.png`,
       prefix: "images/favicons/",
       favicons: {

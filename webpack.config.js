@@ -2,13 +2,18 @@ const webpack = require("webpack");
 const path = require("path");
 const nodeExternals = require("webpack-node-externals");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 const Dotenv = require('dotenv-webpack');
 
 
 
 var config = {
     mode: "development",
-    plugins: [new webpack.HotModuleReplacementPlugin()],
+    plugins: [new webpack.HotModuleReplacementPlugin()
+    ,
+    new TsconfigPathsPlugin({
+      configFile: "./tsconfig.json",
+    }),],
     module: {
         rules: [
             {
@@ -34,6 +39,35 @@ var config = {
                     loader: 'svg-url-loader',
                     options: {
                       limit: 10000,
+                    },
+                  },
+                ],
+              },
+              {
+                test: /\.(gif|jpg|png|svg)$/,
+                use: [
+                  {
+                    loader: "file-loader",
+                    options: {
+                      name: "[name].[ext]",
+                      outputPath: "images/",
+                      publicPath: "/images/",
+                    },
+                  },
+                  {
+                    loader: "image-webpack-loader",
+                    options: {
+                      mozjpeg: {
+                        progressive: true,
+                        quality: 85,
+                      },
+                      pngquant: {
+                        quality: "65-90",
+                        speed: 4,
+                      },
+                      gifsicle: {
+                        enabled: false,
+                      },
                     },
                   },
                 ],

@@ -1,0 +1,531 @@
+
+> saleor-site@0.7.0 start /home/ec2-user/mygit/saleor-storefront
+> cross-env NODE_ENV=develop webpack-dev-server --history-api-fallback --watch --host 0.0.0.0  --port 3000 --mode development --hotOnly
+
+sh: cross-env: command not found
+npm ERR! code ELIFECYCLE
+npm ERR! syscall spawn
+npm ERR! file sh
+npm ERR! errno ENOENT
+npm ERR! saleor-site@0.7.0 start: `cross-env NODE_ENV=develop webpack-dev-server --history-api-fallback --watch --host 0.0.0.0  --port 3000 --mode development --hotOnly`
+npm ERR! spawn ENOENT
+npm ERR! 
+npm ERR! Failed at the saleor-site@0.7.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ec2-user/.npm/_logs/2020-04-01T03_45_45_922Z-debug.log
+
+> saleor-site@0.7.0 start /home/ec2-user/mygit/saleor-storefront
+> cross-env NODE_ENV=develop webpack-dev-server --history-api-fallback --watch --host 0.0.0.0  --port 3000 --mode development --hotOnly
+
+sh: cross-env: command not found
+npm ERR! code ELIFECYCLE
+npm ERR! syscall spawn
+npm ERR! file sh
+npm ERR! errno ENOENT
+npm ERR! saleor-site@0.7.0 start: `cross-env NODE_ENV=develop webpack-dev-server --history-api-fallback --watch --host 0.0.0.0  --port 3000 --mode development --hotOnly`
+npm ERR! spawn ENOENT
+npm ERR! 
+npm ERR! Failed at the saleor-site@0.7.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ec2-user/.npm/_logs/2020-04-01T03_48_11_976Z-debug.log
+
+> saleor-site@0.7.0 start /home/ec2-user/mygit/saleor-storefront
+> cross-env NODE_ENV=develop webpack-dev-server --history-api-fallback --watch --host 0.0.0.0  --port 3000 --mode development --hotOnly
+
+Starting type checking and linting service...
+Using 1 worker with 2048MB memory limit
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:3000/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /index.html
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /
+[31m✖[39m [90m｢wdm｣[39m: Hash: 523f887ff80709966223
+Version: webpack 4.42.0
+Time: 43714ms
+Built at: 04/01/2020 3:52:50 AM
+                                                  Asset       Size  Chunks                   Chunk Names
+                                 images/Shape-white.svg  515 bytes          [emitted]        
+                                       images/Shape.png  173 bytes          [emitted]        
+                                        images/amex.svg   3.82 KiB          [emitted]        
+                                  images/arrow-back.svg  418 bytes          [emitted]        
+                                       images/arrow.svg  127 bytes          [emitted]        
+                           images/breadcrumbs-arrow.svg  201 bytes          [emitted]        
+                              images/carousel-arrow.svg  227 bytes          [emitted]        
+                           images/cart-add-disabled.svg  193 bytes          [emitted]        
+                                    images/cart-add.svg  178 bytes          [emitted]        
+                                 images/cart-remove.svg  902 bytes          [emitted]        
+                               images/cart-subtract.svg  163 bytes          [emitted]        
+                                        images/cart.svg   1.31 KiB          [emitted]        
+                                       images/close.svg  223 bytes          [emitted]        
+                                        images/copy.svg   1.27 KiB          [emitted]        
+                                    images/discover.svg   1.79 KiB          [emitted]        
+                               images/facebook-icon.svg  369 bytes          [emitted]        
+             images/favicons/android-chrome-144x144.png   4.16 KiB          [emitted]        
+             images/favicons/android-chrome-192x192.png   5.62 KiB          [emitted]        
+             images/favicons/android-chrome-256x256.png   7.54 KiB          [emitted]        
+               images/favicons/android-chrome-36x36.png   1.03 KiB          [emitted]        
+             images/favicons/android-chrome-384x384.png   13.4 KiB          [emitted]        
+               images/favicons/android-chrome-48x48.png   1.33 KiB          [emitted]        
+             images/favicons/android-chrome-512x512.png   19.5 KiB          [emitted]        
+               images/favicons/android-chrome-72x72.png   1.99 KiB          [emitted]        
+               images/favicons/android-chrome-96x96.png    2.7 KiB          [emitted]        
+         images/favicons/apple-touch-icon-1024x1024.png   57.9 KiB          [emitted]        
+           images/favicons/apple-touch-icon-114x114.png   3.19 KiB          [emitted]        
+           images/favicons/apple-touch-icon-120x120.png   3.35 KiB          [emitted]        
+           images/favicons/apple-touch-icon-144x144.png   4.14 KiB          [emitted]        
+           images/favicons/apple-touch-icon-152x152.png   4.41 KiB          [emitted]        
+           images/favicons/apple-touch-icon-167x167.png   4.85 KiB          [emitted]        
+           images/favicons/apple-touch-icon-180x180.png   5.31 KiB          [emitted]        
+             images/favicons/apple-touch-icon-57x57.png    1.6 KiB          [emitted]        
+             images/favicons/apple-touch-icon-60x60.png   1.67 KiB          [emitted]        
+             images/favicons/apple-touch-icon-72x72.png   1.99 KiB          [emitted]        
+             images/favicons/apple-touch-icon-76x76.png   2.14 KiB          [emitted]        
+       images/favicons/apple-touch-icon-precomposed.png   5.31 KiB          [emitted]        
+                   images/favicons/apple-touch-icon.png   5.31 KiB          [emitted]        
+images/favicons/apple-touch-startup-image-1182x2208.png     49 KiB          [emitted]        
+images/favicons/apple-touch-startup-image-1242x2148.png   85.9 KiB          [emitted]        
+images/favicons/apple-touch-startup-image-1496x2048.png   95.4 KiB          [emitted]        
+images/favicons/apple-touch-startup-image-1536x2008.png    114 KiB          [emitted]        
+  images/favicons/apple-touch-startup-image-320x460.png   11.3 KiB          [emitted]        
+ images/favicons/apple-touch-startup-image-640x1096.png   30.7 KiB          [emitted]        
+  images/favicons/apple-touch-startup-image-640x920.png   29.7 KiB          [emitted]        
+ images/favicons/apple-touch-startup-image-748x1024.png   32.2 KiB          [emitted]        
+ images/favicons/apple-touch-startup-image-750x1294.png   38.9 KiB          [emitted]        
+ images/favicons/apple-touch-startup-image-768x1004.png   38.3 KiB          [emitted]        
+                      images/favicons/browserconfig.xml  481 bytes          [emitted]        
+                      images/favicons/coast-228x228.png   6.99 KiB          [emitted]        
+                      images/favicons/favicon-16x16.png  481 bytes          [emitted]        
+                      images/favicons/favicon-32x32.png  910 bytes          [emitted]        
+                            images/favicons/favicon.ico   32.5 KiB          [emitted]        
+                images/favicons/firefox_app_128x128.png   3.88 KiB          [emitted]        
+                images/favicons/firefox_app_512x512.png     22 KiB          [emitted]        
+                  images/favicons/firefox_app_60x60.png   1.84 KiB          [emitted]        
+                          images/favicons/manifest.json   1.38 KiB          [emitted]        
+                        images/favicons/manifest.webapp  350 bytes          [emitted]        
+                     images/favicons/mstile-144x144.png   4.16 KiB          [emitted]        
+                     images/favicons/mstile-150x150.png   8.69 KiB          [emitted]        
+                     images/favicons/mstile-310x150.png   9.44 KiB          [emitted]        
+                     images/favicons/mstile-310x310.png   22.4 KiB          [emitted]        
+                       images/favicons/mstile-70x70.png   3.51 KiB          [emitted]        
+               images/favicons/yandex-browser-50x50.png   1.38 KiB          [emitted]        
+           images/favicons/yandex-browser-manifest.json  164 bytes          [emitted]        
+                                     images/garbage.svg  932 bytes          [emitted]        
+                             images/gridView-active.svg  165 bytes          [emitted]        
+                                    images/gridView.svg  165 bytes          [emitted]        
+                                 images/gridViewico.svg  282 bytes          [emitted]        
+                           images/gridViewicoActive.svg  282 bytes          [emitted]        
+                             images/hamburger-hover.svg  380 bytes          [emitted]        
+                                   images/hamburger.svg  264 bytes          [emitted]        
+                              images/instagram-icon.svg  911 bytes          [emitted]        
+                                         images/jcb.svg   1.75 KiB          [emitted]        
+                                  images/left-arrow.svg  541 bytes          [emitted]        
+                             images/listView-active.svg  165 bytes          [emitted]        
+                                    images/listView.svg  165 bytes          [emitted]        
+                                 images/listViewico.svg  214 bytes          [emitted]        
+                           images/listViewicoActive.svg  214 bytes          [emitted]        
+                                  images/logo-small.svg  584 bytes          [emitted]        
+                                        images/logo.svg   4.36 KiB          [emitted]        
+                               images/logo_centered.jpg   19.4 KiB          [emitted]        
+                                     images/maestro.svg  419 bytes          [emitted]        
+                                  images/mastercard.svg  419 bytes          [emitted]        
+                                  images/minus-icon.png  109 bytes          [emitted]        
+                                 images/modal-close.svg  354 bytes          [emitted]        
+                                    images/no-photo.svg   5.21 KiB          [emitted]        
+                                   images/plus-icon.png  133 bytes          [emitted]        
+                                        images/plus.svg  251 bytes          [emitted]        
+                                 images/right-arrow.svg  515 bytes          [emitted]        
+                                      images/search.svg  728 bytes          [emitted]        
+                              images/sorting-icoMob.svg  209 bytes          [emitted]        
+                                  images/sortingico.svg  198 bytes          [emitted]        
+                               images/subcategories.svg  128 bytes          [emitted]        
+                                  images/toggleDown.svg  508 bytes          [emitted]        
+                                images/twitter-icon.svg  713 bytes          [emitted]        
+                                        images/user.svg   1.89 KiB          [emitted]        
+                                        images/visa.svg   1.17 KiB          [emitted]        
+                                           images/x.svg  289 bytes          [emitted]        
+                                images/youtube-icon.svg  637 bytes          [emitted]        
+                                             index.html   4.63 KiB          [emitted]        
+                                              js/app.js   7.53 MiB     app  [emitted]        app
+                                          js/app.js.map   8.04 MiB     app  [emitted] [dev]  app
+Entrypoint app = js/app.js js/app.js.map
+[0] multi (webpack)-dev-server/client?http://0.0.0.0:3000 (webpack)/hot/only-dev-server.js ./src/index.tsx 52 bytes {app} [built]
+[./node_modules/@hot-loader/react-dom/index.js] 1.33 KiB {app} [built]
+[./node_modules/apollo-cache-inmemory/lib/bundle.esm.js] 42.4 KiB {app} [built]
+[./node_modules/apollo-cache-persist/bundle.umd.js] 18.3 KiB {app} [built]
+[./node_modules/apollo-client/bundle.esm.js] 110 KiB {app} [built]
+[./node_modules/apollo-link-batch-http/lib/index.js] 66 bytes {app} [built]
+[./node_modules/apollo-link-retry/lib/index.js] 62 bytes {app} [built]
+[./node_modules/apollo-link/lib/bundle.esm.js] 6.56 KiB {app} [built]
+[./node_modules/loglevel/lib/loglevel.js] 7.68 KiB {app} [built]
+[./node_modules/react-alert/dist/esm/react-alert.js] 12.3 KiB {app} [built]
+[./node_modules/react-apollo/react-apollo.esm.js] 46 KiB {app} [built]
+[./node_modules/react-hot-loader/index.js] 1.24 KiB {app} [built]
+[./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3000] (webpack)-dev-server/client?http://0.0.0.0:3000 7.78 KiB {app} [built]
+[./node_modules/webpack/hot/only-dev-server.js] (webpack)/hot/only-dev-server.js 2.52 KiB {app} [built]
+[./src/index.tsx] 7.07 KiB {app} [built]
+    + 1571 hidden modules
+
+ERROR in Page.tsx
+./src/views/Category/Page.tsx
+[tsl] ERROR in Page.tsx(95,29)
+      TS1005: '=>' expected.
+ @ ./src/views/Category/View.tsx 19:31-48
+ @ ./src/views/Category/index.tsx
+ @ ./src/routes/Routes.tsx
+ @ ./src/routes/index.ts
+ @ ./src/components/EmptyCart.tsx
+ @ ./src/components/index.ts
+ @ ./src/index.tsx
+ @ multi (webpack)-dev-server/client?http://0.0.0.0:3000 (webpack)/hot/only-dev-server.js ./src/index.tsx
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/@next/components/atoms/DropdownSelect/DropdownSelect.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/@next/components/atoms/DropdownSelect/DropdownSelect.tsx(5,1):
+TS6133: 'Label' is declared but its value is never read.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/@next/components/atoms/DropdownSelect/DropdownSelect.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/@next/components/atoms/DropdownSelect/DropdownSelect.tsx(9,1):
+TS6133: 'Icon' is declared but its value is never read.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(31,1):
+TS6133: 'sortingicoMobActive' is declared but its value is never read.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(43,1):
+TS6133: 'sortingicoActive' is declared but its value is never read.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(125,9):
+TS6133: 'hasProducts' is declared but its value is never read.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(134,9):
+TS6133: 'open' is declared but its value is never read.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(136,9):
+TS6133: 'handleClick' is declared but its value is never read.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(140,9):
+TS6133: 'handleClose' is declared but its value is never read.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(144,9):
+TS6133: 'showFilter' is declared but its value is never read.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(363,51):
+TS2345: Argument of type 'number' is not assignable to parameter of type 'string'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(364,67):
+TS2345: Argument of type 'number' is not assignable to parameter of type 'string'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(798,22):
+TS2322: Type '{ categoryTo: number; categoryFrom: number; categoryActivePage: number; totalCount: number; limit: number; onCategoryNext: (to: any) => void; onCategoryPrevious: (from: any) => void; onCategoryPageClick: (i: any) => void; enableCPre: boolean; enableCNxt: boolean; }' is not assignable to type 'IntrinsicAttributes & PaginationProps & { children?: ReactNode; }'.
+  Property 'totalCount' does not exist on type 'IntrinsicAttributes & PaginationProps & { children?: ReactNode; }'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(827,22):
+TS2322: Type '{ categoryTo: number; categoryFrom: number; categoryActivePage: number; totalCount: number; limit: number; onCategoryNext: (to: any) => void; onCategoryPrevious: (from: any) => void; onCategoryPageClick: (i: any) => void; enableCPre: boolean; enableCNxt: boolean; }' is not assignable to type 'IntrinsicAttributes & PaginationProps & { children?: ReactNode; }'.
+  Property 'totalCount' does not exist on type 'IntrinsicAttributes & PaginationProps & { children?: ReactNode; }'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(886,26):
+TS2322: Type '{ categoryTo: number; categoryFrom: number; categoryActivePage: number; totalCount: number; limit: number; onCategoryNext: (to: any) => void; onCategoryPrevious: (from: any) => void; onCategoryPageClick: (i: any) => void; enableCPre: boolean; enableCNxt: boolean; }' is not assignable to type 'IntrinsicAttributes & PaginationProps & { children?: ReactNode; }'.
+  Property 'totalCount' does not exist on type 'IntrinsicAttributes & PaginationProps & { children?: ReactNode; }'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(976,22):
+TS2322: Type '{ categoryTo: number; categoryFrom: number; categoryActivePage: number; totalCount: number; limit: number; onCategoryNext: (to: any) => void; onCategoryPrevious: (from: any) => void; onCategoryPageClick: (i: any) => void; enableCPre: boolean; enableCNxt: boolean; }' is not assignable to type 'IntrinsicAttributes & PaginationProps & { children?: ReactNode; }'.
+  Property 'totalCount' does not exist on type 'IntrinsicAttributes & PaginationProps & { children?: ReactNode; }'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(1020,20):
+TS2322: Type '{ categoryTo: number; categoryFrom: number; categoryActivePage: number; totalCount: number; limit: number; onCategoryNext: (to: any) => void; onCategoryPrevious: (from: any) => void; onCategoryPageClick: (i: any) => void; enableCPre: boolean; enableCNxt: boolean; }' is not assignable to type 'IntrinsicAttributes & PaginationProps & { children?: ReactNode; }'.
+  Property 'totalCount' does not exist on type 'IntrinsicAttributes & PaginationProps & { children?: ReactNode; }'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(1107,22):
+TS2322: Type '{ categoryTo: number; categoryFrom: number; categoryActivePage: number; totalCount: number; limit: number; onCategoryNext: (to: any) => void; onCategoryPrevious: (from: any) => void; onCategoryPageClick: (i: any) => void; enableCPre: boolean; enableCNxt: boolean; }' is not assignable to type 'IntrinsicAttributes & PaginationProps & { children?: ReactNode; }'.
+  Property 'totalCount' does not exist on type 'IntrinsicAttributes & PaginationProps & { children?: ReactNode; }'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(1134,20):
+TS2322: Type '{ categoryTo: number; categoryFrom: number; categoryActivePage: number; totalCount: number; limit: number; onCategoryNext: (to: any) => void; onCategoryPrevious: (from: any) => void; onCategoryPageClick: (i: any) => void; enableCPre: boolean; enableCNxt: boolean; }' is not assignable to type 'IntrinsicAttributes & PaginationProps & { children?: ReactNode; }'.
+  Property 'totalCount' does not exist on type 'IntrinsicAttributes & PaginationProps & { children?: ReactNode; }'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Collection/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Collection/Page.tsx(92,12):
+TS2739: Type '{ displayLoader: boolean; hasNextPage: boolean; onLoadMore: () => void; products: Collection_products_edges_node[]; totalCount: number; }' is missing the following properties from type 'ProductsListProps': lastPIndex, firstPIndex
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Search/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Search/Page.tsx(115,12):
+TS2739: Type '{ displayLoader: boolean; hasNextPage: boolean; onLoadMore: () => void; products: SearchProducts_products_edges_node[]; totalCount: number; }' is missing the following properties from type 'ProductsListProps': lastPIndex, firstPIndex
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/components/MainMenu/NavDropdown.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/components/MainMenu/NavDropdown.tsx(34,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/components/MainMenu/NavDropdown.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/components/MainMenu/NavDropdown.tsx(36,7):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/components/Pagination/index.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/components/Pagination/index.tsx(18,7):
+prefer-const: Identifier 'listing' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/components/Pagination/index.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/components/Pagination/index.tsx(20,9):
+prefer-const: Identifier 'active' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/components/ProductsList/index.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/components/ProductsList/index.tsx(6,3):
+comment-format: comment must start with a space
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/components/ProductsList/list.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/components/ProductsList/list.tsx(39,13):
+trailing-comma: Missing trailing comma
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(119,23):
+trailing-comma: Missing trailing comma
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(160,3):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(162,7):
+prefer-const: Identifier 'cat_from' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(162,7):
+variable-name: variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(163,7):
+variable-name: variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(164,9):
+variable-name: variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(165,7):
+variable-name: variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(166,7):
+variable-name: variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(168,21):
+triple-equals: == should be ===
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(214,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(216,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(217,9):
+prefer-const: Identifier 'pageCount' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(218,9):
+prefer-const: Identifier 'max' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(223,11):
+prefer-const: Identifier 'temp' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(232,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(234,9):
+prefer-const: Identifier 'first' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(237,5):
+curly: if statements must be braced
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(243,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(245,9):
+prefer-const: Identifier 'newlast' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(247,9):
+prefer-const: Identifier 'temp' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(252,1):
+jsdoc-format: asterisks in jsdoc must be aligned
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(253,1):
+jsdoc-format: asterisks in jsdoc must be aligned
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(254,3):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(259,7):
+prefer-const: Identifier 'pro_from' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(259,7):
+variable-name: variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(260,7):
+variable-name: variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(261,7):
+variable-name: variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(262,7):
+variable-name: variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(264,20):
+triple-equals: == should be ===
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(299,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(313,9):
+prefer-const: Identifier 'limit' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(314,22):
+triple-equals: == should be ===
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(345,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(347,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(348,9):
+prefer-const: Identifier 'pageCount' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(349,9):
+prefer-const: Identifier 'max' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(351,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(352,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(357,11):
+prefer-const: Identifier 'temp' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(363,42):
+radix: Missing radix parameter
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(364,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(364,58):
+radix: Missing radix parameter
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(366,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(368,7):
+comment-format: comment must start with a space
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(372,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(374,9):
+prefer-const: Identifier 'first' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(382,11):
+prefer-const: Identifier 'temp' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(385,7):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(386,7):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(392,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(394,9):
+prefer-const: Identifier 'newlast' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(396,9):
+prefer-const: Identifier 'temp' is never reassigned; use 'const' instead of 'let'.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(398,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(399,5):
+no-console: Calls to 'console.log' are not allowed.
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(966,65):
+trailing-comma: Missing trailing comma
+
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx
+ERROR in /home/ec2-user/mygit/saleor-storefront/src/views/Category/Page.tsx(1097,65):
+trailing-comma: Missing trailing comma
+Child html-webpack-plugin for "index.html":
+     1 asset
+    Entrypoint undefined = index.html
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html] 695 bytes {0} [built]
+    [./node_modules/lodash/lodash.js] 528 KiB {0} [built]
+    [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {0} [built]
+    [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {0} [built]
+Child webapp-webpack-plugin:
+     1 asset
+    Entrypoint favicon.png = 4d58b4ff4fac8156eadc
+    [./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"/home/ec2-user/mygit/saleor-storefront/node_modules/.cache/webapp-webpack-plugin"}!./node_modules/webapp-webpack-plugin/src/loader.js?{"prefix":"images/favicons/","options":{"appName":"Saleor","appDescription":"Storefront for the Saleor e-commerce platform","display":"standalone","developerURL":null,"background":"#ddd","theme_color":"#333","version":"0.7.0","developerName":"Mirumee"},"path":"/"}!./src/images/favicon.png] 1.06 MiB {favicon.png} [built]
+[34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
